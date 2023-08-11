@@ -12,5 +12,7 @@ Data from Colombia and Belize needs to be added.
 **2) Seagrass map for USVI**
 
 Collaborative work with Edwin Cruz-Rivera (institute???)
+
 May be part of Chealsea's master thesis
+
 Currently in the exploration stage; now reviewing GEE codes and exploring Sentinel 2 images. Need to explore different time ranges beacuse there are to much clouds in the output images.
