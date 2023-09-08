@@ -22,6 +22,7 @@ Currently in the exploration stage; now reviewing GEE codes and exploring Sentin
 _Workflow_
 
 1.- Groundtruth database creation: data points taken from Claudias visit to Belize, GPS data recording and bothom type identification. Seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. 
+
 2.- Image selection: region of interest, time frame of the collection.
 
 
