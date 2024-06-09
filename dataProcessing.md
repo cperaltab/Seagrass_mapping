@@ -22,7 +22,7 @@ Currently in the exploration stage; now reviewing GEE codes and exploring Sentin
 _Workflow_
 
 1.- Groundtruth database creation: data points taken from Claudias visit to Belize, GPS data recording and bothom type identification. Seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. 
-Imported all data points to GoogleEarth Pro and check accuracy of points and benthic habitat verification. Looking for different satellite images dates to get the better image (no clouds, no turbidity, good resolution); some points were on top of mangroves, some other points were hard to confirm the type of habitat it was representing. No celar view of the bottom. Market in green the verified points which will be used after for the training points (featureCollection in GEE).
+Imported all data points (60 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification (only used seagrass, sand and other mixed habitat types), no hard bottom or hard corals were used in the firts clasification run. Looking for different satellite images dates to get the better image (no clouds, no turbidity, good resolution); some points were on top of mangroves, some other points were hard to confirm the type of habitat it was representing. No celar view of the bottom. Market in green the verified points which will be used after for the training points (featureCollection in GEE).
 
 2.- Image selection: region of interest, time frame of the collection.
 
