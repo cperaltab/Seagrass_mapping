@@ -30,7 +30,7 @@ The data points available are from Bacalar Chico down to Punta Gorda (inland)
 2.- Image selection: region of interest, time frame of the collection.
 
 For a baseline map select the best image possible (with less cloud cover possible)
-Tiles for Belice coastal area using Sentinel 2 image collection are: 16QCE, 16QDE, 16QCD, 16QDD, 16PCC. You can see the specific tile codies here: https://eatlas.org.au/geonetwork/srv/eng/catalog.search#/metadata/f7468d15-12be-4e3f-a246-b2882a324f59 
+Tiles for Belice coastal area using Sentinel 2 image collection are: 16QCE, 16QDE, 16QCD, 16QDD, 16PCC. For the baseline map and according to the specific AOI for the CoPe project we worked only with 16QCD tile. You can see the specific tile codies here: https://eatlas.org.au/geonetwork/srv/eng/catalog.search#/metadata/f7468d15-12be-4e3f-a246-b2882a324f59 
 
 For the baseline map I selected one single image per year/tile (2020-2022):
 
