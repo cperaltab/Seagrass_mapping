@@ -35,12 +35,27 @@ Tiles for Belice coastal area using Sentinel 2 image collection are: 16QCE, 16QD
 For the baseline map I selected one single image per year/tile (2020-2022):
 
 idB2 = '20210411T160901_20210411T162810_T16QCD' // image with 1%< Cloud pixels
-idB3
+idB3 will try with some more images
 idB4
 ...
 
 
+
 ![image](https://github.com/cperaltab/Seagrass_mapping/assets/7772503/c5302163-2ac2-44ec-8d09-886c76841922)
+
+3. Pre-processing: for baseline map we used the best image (single image). Applied Masks: cloud; missing water, land and glint mask.
+   Create FetaureCollection for training data points using the groundtruth data.
+   Create sand polygons (FeatureCollection) for Depth Invariant Index.. see notes to elaborate on this.
+
+4. Classification: select the bands to sample "sampling bands"==> B1, B2, B3, B4, B2B3
+   Sample bands with ground-truth dataset (70% training, 30% validation)
+   Train SVM (Support Vector Machine) model and classify. The SVM is a machine-learning approach for supervised classification and 
+   regression. Mode of operation is per pixel/per feature.
+   Get accuracies and Kappa coefficients. At this moment my Kappa is low: 0.587; accuracy for softbottom = 1; hardbottom = 0.18; seagrass 
+   = 0.76. Issue: not enough hardbottom data points (ground truth); try the classification with only softbottom (sand) and seagrass data 
+   points.
+6. Post-Classification: classified images; select pixels classified as seagrass; create mosaics; map edition and post-classification; final product. This is a missing step and not very critical for a baseline map that uses a single image.
+
 
 
 
