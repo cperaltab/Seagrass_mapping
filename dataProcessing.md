@@ -19,6 +19,8 @@ Currently in the exploration stage; now reviewing GEE codes and exploring Sentin
 
 **3) Seagrass map for Belize**
 
+GEE project: https://code.earthengine.google.com/0f8f76e5e20e18eb057bcc0328408b10 
+
 _Workflow_
 
 1.- Groundtruth database creation: data points taken from Claudias visit to Belize, GPS data recording and bothom type identification. Seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. 
