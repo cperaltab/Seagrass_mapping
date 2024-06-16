@@ -22,7 +22,7 @@ Currently in the exploration stage; now reviewing GEE codes and exploring Sentin
 _Workflow_
 
 1.- Groundtruth database creation: data points taken from Claudias visit to Belize, GPS data recording and bothom type identification. Seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. 
-Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification (only used seagrass, sand and hardbottom type), no Scleractinia data were used in the firts clasification run. 
+Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification; used seagrass, sand and hardbottom type (including Scleractinia). Scleractinia data are very poor and not enough for a significant class.
 
 Looking for different satellite images dates in Google Earth Pro to get the better image (no clouds, no turbidity, good resolution); some points were on top of mangroves, some other points were hard to confirm the type of habitat it was representing. No celar view of the bottom. Market in green the verified points which will be used after for the training points (featureCollection in GEE).
 The data points available are from Bacalar Chico down to Punta Gorda (inland)
@@ -54,7 +54,12 @@ idB4
    Get accuracies and Kappa coefficients. At this moment my Kappa is low: 0.587; accuracy for softbottom = 1; hardbottom = 0.18; seagrass 
    = 0.76. Issue: not enough hardbottom data points (ground truth); try the classification with only softbottom (sand) and seagrass data 
    points.
-6. Post-Classification: classified images; select pixels classified as seagrass; create mosaics; map edition and post-classification; final product. This is a missing step and not very critical for a baseline map that uses a single image.
+
+5. Post-Classification: classified image; select pixels classified as seagrass; map edition and post-classification; final product.
+
+   Export the final image as GeoTiff to GoogleDrive. Download the tif file to the local computer. Add raster layer into QGIS. Add background map. Add grid, coordinates and labels. Export as PNG or JPEG.
+
+    See QGIS tutorial for adding raster layer: https://usfedu-my.sharepoint.com/personal/bryant117_usf_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbryant117%5Fusf%5Fedu%2FDocuments%2FRecordings%2FQGIS%20Walk%20through%2D20240614%5F175229%2DMeeting%20Recording%2Emp4&ct=1718499603348&or=Teams%2DHL&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb02ae252%2D58b7%2D494a%2Dbc7b%2De6277584ab29 
 
 
 
