@@ -61,7 +61,13 @@ idB4
 
     See QGIS tutorial for adding raster layer: https://usfedu-my.sharepoint.com/personal/bryant117_usf_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fbryant117%5Fusf%5Fedu%2FDocuments%2FRecordings%2FQGIS%20Walk%20through%2D20240614%5F175229%2DMeeting%20Recording%2Emp4&ct=1718499603348&or=Teams%2DHL&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Eb02ae252%2D58b7%2D494a%2Dbc7b%2De6277584ab29 
 
+_Caviats_
 
+* Check the Kappa and Accuracy values. Not good
+* Check the training points and number of classes. More grountruth needed for every class
+* Check the Depth Invariant Index. 
+* Check Water and land masks.
+* Correct the seagrass overestimation and seaagrass class inland, up into the rivers.
 
 
 
