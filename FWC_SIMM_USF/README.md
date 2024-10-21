@@ -8,7 +8,7 @@
 
 **How?**
 
-- With high spatila resolution staellite images such as the ones obtained from Planet imagery. The use of other image providers will be also considered according to the needs.
+- With high spatial resolution staellite images such as the ones obtained from Planet imagery. The use of other image providers will be also considered according to the needs.
 - Ground truth data points for training and validation
 - GEE for image processing
 - Q-GIS or ArcGIS for final maps
