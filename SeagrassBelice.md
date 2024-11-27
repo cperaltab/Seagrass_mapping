@@ -25,6 +25,8 @@ idB4
 
 ...
 
+No good images for 2023-2024> no images for the specific tile, fractions of an image, to much clouds.
+
 
 
 ![image](https://github.com/cperaltab/Seagrass_mapping/assets/7772503/c5302163-2ac2-44ec-8d09-886c76841922)
