@@ -18,8 +18,11 @@ Tiles for Belice coastal area using Sentinel 2 image collection are: 16QCE, 16QD
 For the baseline map I selected one single image per year/tile (2020-2022):
 
 idB2 = '20210411T160901_20210411T162810_T16QCD' // image with 1%< Cloud pixels
+
 idB3 will try with some more images
+
 idB4
+
 ...
 
 
