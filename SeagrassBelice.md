@@ -19,9 +19,7 @@ For the baseline map I selected one single image per year/tile (2020-2022):
 
 idB2 = '20210411T160901_20210411T162810_T16QCD' // image with 1%< Cloud pixels
 
-idB3 will try with some more images
-
-idB4
+After trying with more recent images we got that for 2022 and 2023 we have we have cero images for our tile (T16QCD), with 1%< Cloud pixels. 1.83% cloud coverage we found only one image for 2023 and one with 3.64% cloudy pixels.
 
 ...
 
