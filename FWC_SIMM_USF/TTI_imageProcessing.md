@@ -1,4 +1,4 @@
-TTI_Planet_SVMmodel calculation scripts in GEE [here] (https://code.earthengine.google.com/a68fca9abf08b5be9c0af0ed8e82351e)
+TTI_Planet_SVMmodel calculation scripts in GEE [here](https://code.earthengine.google.com/a68fca9abf08b5be9c0af0ed8e82351e)
 
 Working with sections of our AOI as Planet imagery provides the images "in chunks". Selected the best images from our image collection downloaded from Planet, and
 according to the AOI representation and the presence of clouds.
