@@ -12,12 +12,11 @@ The field data collection showed the following classes: HardBottom, subaquaveg (
 
 The field data also applies the classes as "HabitatType": soft bottom, Macroalgae-softbottom, hard bottom, Macroalgae-hardbottom, macroalgae, Macroalgae-mud, oyster bed, Softbottom-shell, mud-shell.
 
-The spatial resolution of the images doesent allow us to separate all these features, therefore we will merge as follow: 
+The spatial resolution of the images does not allow us to separate all these features, and very few points for macroalgae, oyster or hardbottom alone, therefore we will merge as follow: 
 - softbottom=>mud+sand:0
-- hardbottom=>Hard Bottom + shell + oyster:1
-- subaquaveg=>macroalgae:2
+- hardbottom=>Hard Bottom + shell + oyster + macrolagae:1
+- subaquaveg=> macrolagae + sand
 
 Not enougph data points were registered for macroalgae and oyster alone, therefore the classification for these specific fatures will be diffuclt to almost imposible.
-What to do when having a point for hard bottom + macroalgae? try to see if we can separate hard bottom alone and hard bottom + macroalgae
 
 
