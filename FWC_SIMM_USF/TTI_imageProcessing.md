@@ -17,6 +17,6 @@ The spatial resolution of the images does not allow us to separate all these fea
 - hardbottom=>Hard Bottom + shell + oyster + macrolagae: 1 
 - subaquaveg=> macrolagae + sand: 2
 
-Not enougph data points were registered for macroalgae and oyster alone, therefore the classification for these specific fatures will be diffuclt to almost imposible.
+Not enough data points were registered for macroalgae and oyster alone, therefore the classification for these specific fatures will be diffuclt to almost imposible.
 
 
