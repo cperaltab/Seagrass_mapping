@@ -18,6 +18,6 @@ The spatial resolution of the images doesent allow us to separate all these feat
 - subaquaveg=>macroalgae:2
 
 Not enougph data points were registered for macroalgae and oyster alone, therefore the classification for these specific fatures will be diffuclt to almost imposible.
-What to do when having a point for hard bottom + macroalgae? try to see if we can separe hard bottom alone and hard bottom + macroalgae
+What to do when having a point for hard bottom + macroalgae? try to see if we can separate hard bottom alone and hard bottom + macroalgae
 
 
