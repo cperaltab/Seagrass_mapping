@@ -8,8 +8,10 @@ Currently using images from 2023 because Planet didnt show newer images. We need
 We are using ground truth data from our field trip in January 2025. No seagrass patches were found but other features where identified. 
 See comments in GEE script and habitat type occurrence dataset.
 
-The field data collection showed the following classes: HardBottom, subaquaveg (macroalgae), mud, oyster, sand, shell. 
-The field data also applies the classes as "HabitatType": soft bottom, Macroalgae-softbottom, hard bottom, Macroalgae-hardbottom, macroalgae, Macroalgae-mud, oyster bed, Softbottom-shell, mud-shell
+The field data collection showed the following classes: HardBottom, subaquaveg (macroalgae), mud, oyster, sand, shell.
+
+The field data also applies the classes as "HabitatType": soft bottom, Macroalgae-softbottom, hard bottom, Macroalgae-hardbottom, macroalgae, Macroalgae-mud, oyster bed, Softbottom-shell, mud-shell.
+
 The spatial resolution of the images doesent allow us to separate all these features, therefore we will merge as follow: 
 - softbottom=>mud+sand:0
 - hardbottom=>Hard Bottom + shell + oyster:1
