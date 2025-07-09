@@ -1,5 +1,7 @@
 **3) Seagrass map for Belize**
 
+Project date: year 2023
+
 GEE project: https://code.earthengine.google.com/0f8f76e5e20e18eb057bcc0328408b10 
 
 _Workflow_
