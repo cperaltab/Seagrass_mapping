@@ -14,6 +14,7 @@ see Caribbean Benthic Mapping webinar: https://reefresilience.org/caribbean-bent
 ....
 
 **To-do:**
+
 Filter useful images for Nov-Dec2024 and 2025, for all applicable Tiles (cloud_pixel_percentage); review the ROI polygon befor filtering and visualizing the images.
 After selected images: check and edit the geometry imports: seagrass vs no seagrass class; sand_poly. Use Geomorphic and benthic habitat maps for Mesoamerica as a guide (downloaded from the AllenCoral Atlas)
 
