@@ -14,10 +14,10 @@ see Caribbean Benthic Mapping webinar: https://reefresilience.org/caribbean-bent
 ....
 
 **To-do:**
+Filter useful images for Nov-Dec2024 and 2025, for all applicable Tiles (cloud_pixel_percentage); review the ROI polygon befor filtering and visualizing the images.
+After selected images: check and edit the geometry imports: seagrass vs no seagrass class; sand_poly. Use Geomorphic and benthic habitat maps for Mesoamerica as a guide (downloaded from the AllenCoral Atlas)
 
-Check and edit the geometry imports: seagrass vs no seagrass class; sand_poly. Use Geomorphic and benthic habitat maps for Mesoamerica as a guide (downloaded from the AllenCoral Atlas)
-
-Look for the batimetry map for all the Caribbean (10mt resolution): 10-12mt depthgood precission; beyond that depth the accuracy is not good. Useful to map benthic habitat up to 12mt depth
+(*) Look for the batimetry map for all the Caribbean (10mt resolution): 10-12mt depthgood precission; beyond that depth the accuracy is not good. Useful to map benthic habitat up to 12mt depth
 Compare output with Allen Coral Atlas or other world benthic habitat mapping 
 
 
