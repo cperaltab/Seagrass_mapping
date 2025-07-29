@@ -1,6 +1,6 @@
 Output/product: seagrass map for Belize > Placencia area and out to reef also, and for Caye Caulker area (Maya Trotz -CoPe).
 
-Time frame: 2025???
+Time frame: search for imgages'2024-11-01', '2025-06-30' 
 
 
 _Workflow_
@@ -8,13 +8,20 @@ _Workflow_
 
 Tiles of interest: T16QCD and T16QCE
 
-    | Header 1 | Header 2 | Header 3 |
-    | :------: | :------: | :------: |
-    | ImageID | imageDate| Number of images|
-    
+|ImageID|imageDate|Number of images|
+|:-----:|:-------:|:--------------:|
+|T16QCD|2025-03| 2 |
+|T16QCE|2025-03| 2 |
+|T16QCE|2025-04| 1 |
+|T16QCE|2025-06| 1 |
 
+Total: 6 images for 2025
+
+**Image pre-processing:** we will work on individual Tiles, perfomr the classification pero individual images and then calculate the median to get the final seagrass cover polygon (see My Handbook and Luis notes).
 
 **Groundtruth database creation:** data points taken from Claudia's visit to Belize (2024), GPS data recording and bothom type identification. Additional seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification; used seagrass, sand and hardbottom type (including Scleractinia). Scleractinia data are very poor and not enough for a significant class but could help to perform a better image interpretation when selecting points for class training de chosed model. 
+
+Use Allen Coral Atlas Geomorphic Zone map and the Benthic Habitat Map for guidance in creating the class points for training the model. The raster and vector layers for this map is in my QGIS project. Note: no benthic habitat classes for the continetal area of Belize, only for the islands and off-shore areas.
 
 Geomorphic zone map: helps identify biological/ecological areas> reef areas, coastal lagoons, sandy areas, etc. Land shallow ocean mask with geomorphic zone map for creating this mask.
 Bathynetry map (up to 12m depth)
