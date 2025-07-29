@@ -4,8 +4,17 @@ Time frame: 2025???
 
 
 _Workflow_
+**Image selection:** in GEE filter the Sentinel2 Harmonized image collection '2024-11-01', '2025-06-30' export the CSV of the image collection properties and select the images from the Tiles of interest and Cloud Pixel percentage <20%.
 
-**1.- Groundtruth database creation:** data points taken from Claudia's visit to Belize (2024), GPS data recording and bothom type identification. Additional seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification; used seagrass, sand and hardbottom type (including Scleractinia). Scleractinia data are very poor and not enough for a significant class but could help to perform a better image interpretation when selecting points for class training de chosed model. 
+Tiles of interest: T16QCD and T16QCE
+
+    | Header 1 | Header 2 | Header 3 |
+    | :------: | :------: | :------: |
+    | ImageID | imageDate| Number of images|
+    
+
+
+**Groundtruth database creation:** data points taken from Claudia's visit to Belize (2024), GPS data recording and bothom type identification. Additional seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification; used seagrass, sand and hardbottom type (including Scleractinia). Scleractinia data are very poor and not enough for a significant class but could help to perform a better image interpretation when selecting points for class training de chosed model. 
 
 Geomorphic zone map: helps identify biological/ecological areas> reef areas, coastal lagoons, sandy areas, etc. Land shallow ocean mask with geomorphic zone map for creating this mask.
 Bathynetry map (up to 12m depth)
