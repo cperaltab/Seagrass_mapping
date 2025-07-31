@@ -16,7 +16,7 @@ Tiles of interest: T16QCD and T16QCE
 |T16QCE|2025-04| 1 |
 |T16QCE|2025-06| 1 |
 
-After manualy filtering by tiles, a total of 173 images filtered from the S-2A SR (https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED) for 2025, with <20% cloud cover filtered manually from the CSV file exported. 6 selected images manualy with less than 20% cloud pixel percentage. When applyin a non supervised filter and cloud mask for the specific tiles I get 0 images (!).
+After manualy filtering by tiles, a total of 173 images filtered from the S-2A SR (https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED) for 2025, with <20% cloud cover filtered manually from the CSV file exported. 6 selected images manualy with less than 20% cloud pixel percentage. When applyin an automated, non supervised filter and cloud mask for the specific tiles I get 0 images (!).
 
 **Image pre-processing (selection of the image):** we will work on individual Tiles, perfomr the classification pero individual images and then calculate the median to get the final seagrass cover polygon (see My Handbook and Luis notes).
 
