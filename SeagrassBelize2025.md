@@ -4,8 +4,9 @@ Time frame: search for imgages'2024-11-01', '2025-06-30'
 
 
 _Workflow_
-**Image selection:** in GEE filter the Sentinel-2 L2A Harmonized image collection '2024-11-01', '2025-06-30' = to 1017 images for the time frame selected, the export the CSV of the image collection with properties and select the images from the Tiles of interest and Cloud Pixel percentage <20%.
-When applying an automated nos-supervised cloud cover filter we get 615 cloud fileterd, cloud masked images (see GEE scripts).
+**Image selection:** in GEE filter the Sentinel-2 L2A Harmonized image collection '2024-11-01', '2025-06-30' = to 1017 images for the AOI and time frame selected; export the CSV of the image collection with properties and select manually the images from the Tiles of interest and Cloud Pixel percentage <20%. When applying an automated nos-supervised cloud cover filter we get 779 cloud fileterd, cloud masked images (see GEE scripts). When applyin an automated, non supervised filter and cloud mask **for the specific tiles** I get 0 images (!).
+
+
 
 Tiles of interest: T16QCD and T16QCE
 
@@ -16,9 +17,13 @@ Tiles of interest: T16QCD and T16QCE
 |T16QCE|2025-04| 1 |
 |T16QCE|2025-06| 1 |
 
-After manualy filtering by tiles, a total of 173 images filtered from the S-2A SR (https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED) for 2025, with <20% cloud cover filtered manually from the CSV file exported. 6 selected images manualy with less than 20% cloud pixel percentage. When applyin an automated, non supervised filter and cloud mask for the specific tiles I get 0 images (!).
+After manualy filtering by tiles, a total of 173 images filtered from the S-2A SR (https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED) for 2025, with <20% cloud cover filtered manually from the CSV file exported. 6 selected images manualy with less than 20% cloud pixel percentage. 
+
+
 
 **Image pre-processing (selection of the image):** we will work on individual Tiles, perfomr the classification pero individual images and then calculate the median to get the final seagrass cover polygon (see My Handbook and Luis notes).
+
+Normalized Difference Water Index (NDWI) is calculated using the following formula: (Green - NIR) / (Green + NIR) Water bodies typically have higher reflectance in the green band and lower reflectance in the NIR band; calculation results in values ranging from -1 to +1. Water bodies usually have positive NDWI values, while vegetation and built-up areas tend to have lower or negative values. 
 
 **Groundtruth database creation:** data points taken from Claudia's visit to Belize (2024), GPS data recording and bothom type identification. Additional seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification; used seagrass, sand and hardbottom type (including Scleractinia). Scleractinia data are very poor and not enough for a significant class but could help to perform a better image interpretation when selecting points for class training de chosed model. 
 
