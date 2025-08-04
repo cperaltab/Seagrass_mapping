@@ -4,7 +4,7 @@ Time frame: search for imgages'2024-11-01', '2025-06-30'
 
 
 _Workflow_
-**Image selection:** in GEE filter the Sentinel-2 L2A Harmonized image collection '2024-11-01', '2025-06-30' = to 1017 images for the AOI and time frame selected; export the CSV of the image collection with properties and select manually the images from the Tiles of interest and Cloud Pixel percentage <20%. When applying an automated nos-supervised cloud cover filter we get 779 cloud fileterd, cloud masked images (see GEE scripts). When applyin an automated, non supervised filter and cloud mask **for the specific tiles** I get 0 images (!).
+**Image selection:** Filtering the image collection to get best quality of images to use for the classification. In GEE filter the Sentinel-2 L2A Harmonized image collection '2024-11-01', '2025-06-30' = to 1017 images for the AOI and time frame selected; export the CSV of the image collection with properties and select manually the images from the Tiles of interest and Cloud Pixel percentage <20%. When applying an automated nos-supervised cloud cover filter we get 779 cloud fileterd, cloud masked images (see GEE scripts). When applyin an automated, non supervised filter and cloud mask **for the specific tiles** I get 0 images (!).
 
 
 
@@ -21,7 +21,7 @@ After manualy filtering by tiles, a total of 173 images filtered from the S-2A S
 
 
 
-**Image pre-processing (selection of the image):** we will work on individual Tiles, perfomr the classification pero individual images and then calculate the median to get the final seagrass cover polygon (see My Handbook and Luis notes).
+**Image pre-processing (selection of the image):** we will work on individual Tiles, perfomr the classification pero individual images and then calculate the median to get the final seagrass cover polygon (see My Handbook and Luis notes). After performing classification per image we need to export the classified image as an assetn the create the final mosaic for the classification.
 
 Normalized Difference Water Index (NDWI) is calculated using the following formula: (Green - NIR) / (Green + NIR) Water bodies typically have higher reflectance in the green band and lower reflectance in the NIR band; calculation results in values ranging from -1 to +1. Water bodies usually have positive NDWI values, while vegetation and built-up areas tend to have lower or negative values. 
 
