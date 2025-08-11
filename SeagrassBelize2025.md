@@ -31,6 +31,15 @@ Normalized Difference Water Index (NDWI) is calculated using the following formu
 
 _To-do_ get table for presenting the number and source of in situ points (Claudia data base) and image-interpreted points, guided by the Allen Coral Atlas benthic habitat type layer. 
 
+|HabitatClass|NumberFieldPoints|NumberMapPoints| Total |
+|:----------:|:---------------:|:-------------:| :----:|
+|Saeagrass   | XXXX | xxx | 115 |
+| Softbottom | xxxx | xxx | 200 |
+| Hardbottom | xxxxx| xxxx| 89 |
+| DeepWater  | xxxxx| xxxx| 167 |
+| Non-seagrass | xxx | xxx | 79 | 
+
+
 Use Allen Coral Atlas Geomorphic Zone map and the Benthic Habitat Map for guidance in creating the class points for training the model. The raster and vector layers for this map is in my QGIS project. Note: no benthic habitat classes for the continetal area of Belize, only for the islands and off-shore areas.
 Upload the geomorphic zone and benthic habitat map to GEE as an asset (250GB space per GEE Cloud Project; I had to work on another project because the imars-simm has no more space).
 Use the Allen Coral Atlas bathymetry raster to frame the depth of the study area: how deep are we performing the seagrass detection/mapping? How to tell the machine learning algorithm to perform the classification up to 10mt depth
