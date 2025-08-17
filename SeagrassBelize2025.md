@@ -29,7 +29,7 @@ Normalized Difference Water Index (NDWI) is calculated using the following formu
 
 **- Groundtruth database creation:** data points taken from Claudia's visit to Belize (2024, 2025), GPS data recording and bothom type identification. Additional seagrass data points from SegrassNet site. No seagrass occurrence data in OBIS. Scleractinia data points taken from OBIS. Imported all data points (104 in total) to GoogleEarth Pro and check accuracy of points and benthic habitat verification; used seagrass, sand and hardbottom type (including Scleractinia). Scleractinia data are very poor and not enough for a significant class but could help to perform a better image interpretation when selecting points for class training de chosed model. 
 
-_To-do_ get table for presenting the number and source of in situ points (Claudia data base) and image-interpreted points, guided by the Allen Coral Atlas benthic habitat type layer. 
+_To-do_ get table for presenting the number and source of in situ points (Claudia data base - 47 coordinates/points for Placencia area and surroundings) and image-interpreted points, guided by the Allen Coral Atlas benthic habitat type layer. 
 
 |HabitatClass|NumberFieldPoints|NumberMapPoints| Total |
 |:----------:|:---------------:|:-------------:| :----:|
