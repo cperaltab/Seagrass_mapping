@@ -52,8 +52,9 @@ see Caribbean Benthic Mapping webinar: https://reefresilience.org/caribbean-bent
 
 **To-do:**
 
-- [x] Look for the batimetry map for all the Caribbean (10mt resolution): 10-12mt depthgood precission; beyond that depth the accuracy is not good. Useful to map benthic habitat up to 12mt depth.
-- [ ] Compare output with Allen Coral Atlas or other world benthic habitat mapping 
+- [x] Look for the batimetry map for all the Caribbean (10mt resolution): 10-12mt depth good precission; beyond that depth the accuracy is not good. Useful to map benthic habitat up to 12mt depth.
+- [ ] Compare output with Allen Coral Atlas or other world benthic habitat mapping
+- [ ] Wait for Maya's response to poceede with the final maps: need to add some more images (consider cloud masking) and go through smoothing/cleaning by applying some of the filters that Digna and Tylar created for the past project with FWC, using probability and bathymetry thresholds. 
   
 
 
